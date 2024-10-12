@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: Archivo, sans-serif;
+}
+
+main {
+    display: flex;
+    height: 100vh; /* Mantém a altura total da página */
+}
+
+.left {
+    flex: 1;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left img {
+    width: 100%; /* Garante que a imagem ocupe toda a área da esquerda */
+    height: 100%;
+    object-fit: cover; /* Mantém a proporção da imagem */
+}
+
+.right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px; /* Ajuste o padding para a distância do conteúdo */
+}
+
+.container {
+    background-color: white;
+    width: 600px; /* Aumenta a largura do contêiner */
+    padding: 60px; /* Aumenta o espaçamento interno */
+    border-radius: 8px; /* Torna os cantos um pouco mais arredondados */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15); /* Aumenta a sombra para dar mais destaque */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h1 {
+    font-family: Archivo, sans-serif;
+    font-size: 28px; /* Aumenta o tamanho do título */
+    margin-bottom: 20px; /* Mais espaço abaixo do título */
+}
+
+p {
+    font-family: Archivo, sans-serif;
+    font-size: 32px; /* Aumenta o tamanho do texto */
+    margin-bottom: 40px; /* Menos espaço abaixo do parágrafo */
+}
+
+label {
+    margin-bottom: 16px; /* Aumenta o espaçamento entre o label e o input */
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 20px; /* Aumenta o padding nos inputs */
+    margin-bottom: 24px; /* Mais espaço entre os inputs */
+    border: 1px solid #ccc;
+    border-radius: 6px; /* Deixa os cantos dos inputs mais arredondados */
+    font-size: 18px; /* Aumenta o tamanho da fonte nos inputs */
+  
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Adiciona espaço entre os elementos */
+    margin-bottom: 24px; /* Aumenta o espaçamento abaixo do "lembre-me" */
+    font-size: 20px; /* Ajusta o tamanho da fonte, se necessário */
+     
+}
+
+.remember-me input {
+    margin-right: 10px; /* Aumenta a distância entre o checkbox e o label */
+    transform: scale(1.5); /* Aumenta o tamanho do checkbox */
+}
+
+button {
+    width: 100%;
+    height: 64px; /* Aumenta a altura do botão */
+    padding: 18px;
+    background-color: #1E9E6A;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 6px; /* Torna os cantos do botão um pouco mais arredondados */
+    cursor: pointer;
+    font-size: 20px; /* Aumenta o tamanho do texto no botão */
+    margin-bottom: 20px; /* Espaçamento entre botões*/
+}
+
+button:hover {
+    background-color: #1E9E6A;
+}
+
+.forgot-password {
+    margin-left: auto; /* Move o link "Esqueceu sua senha?" para a direita */
+    font-size: 20px; /* Ajusta o tamanho da fonte, se necessário */
+    color: #1E9E6A;
+}
+
+.link {
+    text-align: center;
+    margin: 10px 0;
+    
+
+}
+
+.link a {
+    color: #1E9E6A;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.link a:hover {
+    text-decoration: underline;
+}
+
+.google-btn {
+    width: 100%;
+    height: 64px; /* Tamanho do botão */
+    padding: 15px;
+    background-color: #1A202C; /* Cor padrão do botão Google */
+    color: white; /* Cor do texto */
+    border: none;
+    border-radius: 6px; /* Botão arredondado */
+    cursor: pointer;
+    font-size: 18px; /* Tamanho da fonte */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Espaço entre o ícone e o texto */
+    margin-bottom: 20px; 
+}
+
+.google-btn:hover {
+    background-color: #1A202C; /* Cor de hover para o botão */
+}
+
+.google-icon {
+    width: 24px; /* Largura do ícone */
+    height: 24px; /* Altura do ícone */
+}
+
