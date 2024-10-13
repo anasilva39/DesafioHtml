@@ -148,4 +148,36 @@ button:hover {
     width: 24px; /* Largura do ícone */
     height: 24px; /* Altura do ícone */
 }
+/* Media Query para Tablets */
+@media (max-width: 768px) {
+    .left {
+        display: none; /* Esconde a imagem em telas menores */
+    }
+    .right {
+        flex: 1; /* Faz o formulário ocupar toda a largura */
+        padding: 20px; /* Ajusta o padding para tablets */
+    }
+    .container {
+        width: 60%; /* Ajusta a largura do contêiner para tablets */
+        padding: 40px; /* Ajusta o padding interno */
+    }
+}
 
+/* Media Query para Dispositivos Móveis */
+@media (max-width: 375px) {
+    .left {
+        display: none; /* Esconde a imagem em telas menores */
+    }
+    .right {
+        flex: 1; /* Faz o formulário ocupar toda a largura */
+        padding: 15px; /* Ajusta o padding para dispositivos móveis */
+    }
+    .container {
+        width: 100%; /* Faz o contêiner ocupar toda a largura */
+        padding: 20px; /* Ajusta o padding interno */
+    }
+    input[type="email"],
+    input[type="password"] {
+        padding: 15px; /* Reduz o padding nos inputs para dispositivos móveis */
+    }
+}
