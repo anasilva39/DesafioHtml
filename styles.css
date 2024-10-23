@@ -33,7 +33,7 @@ main {
 
 .container {
     background-color: white;
-    width: 600px; /* Aumenta a largura do contêiner */
+    width: 350px; /* Aumenta a largura do contêiner */
     padding: 60px; /* Aumenta o espaçamento interno */
     border-radius: 8px; /* Torna os cantos um pouco mais arredondados */
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15); /* Aumenta a sombra para dar mais destaque */
